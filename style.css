@@ -1,0 +1,57 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A3A52;
+    padding: 0 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+  
+  }
+  
+  .topnav {
+      overflow: hidden;
+    }
+  
+    .topnav a {
+      float: left;
+      font-family: forma-djr-micro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      text-transform: none;
+      color: #FCFCFC;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+     
+    }
+  
+    .topnav a:hover {
+      background-color:#3A3A52;
+      color: #FDE739;
+    }
+    .logo {
+        height: 57px;
+        width: 180px;
+        padding: 1em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      
+      }
+
+      .hero {
+        height: 80vh;
+        padding: 30px;
+        background: url(images/header_img.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+       
+      }
+
+      
