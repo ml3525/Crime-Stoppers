@@ -1,3 +1,10 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -37,7 +44,7 @@
     .logo {
         height: 57px;
         width: 180px;
-        padding: 1em;
+        padding: 15px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -54,4 +61,25 @@
        
       }
 
-      
+      .about {
+        padding: 2em 1em;
+        background-color: white;
+        text-align: center; 
+        font-family: bilo,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .row {
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    h2 {
+        color: black;
+        font-family: rustica,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+    }
