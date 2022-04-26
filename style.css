@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+body {
+    font-family: bilo,sans-serif;
+    font-weight: 500;        
+
+}
+
 
 .nav-bar {
     display: flex;
@@ -78,16 +84,17 @@
         
     }
     
-    .mission {
-        padding: 2em 1em;
-        padding-bottom: 2em;
+    .mission-section {
         background-color: #5F6C7C;
-        content: left; 
-        font-family: bilo,sans-serif;
+
+    }
+
+    .mission {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        padding: 2em 1em;
         color: white;
-        font-weight: 500;
-        font-style: normal;
-        
     }
     
 
@@ -98,7 +105,7 @@
     }
 
     h2 {
-        color: black;
+        color: #3A3A52;
         font-size: 45px;
         font-family: rustica,sans-serif;
         font-weight: 500;
@@ -112,11 +119,11 @@
         font-family: rustica,sans-serif;
         font-weight: 500;
         font-style: normal;
-        padding-left: 3.5em;
+        padding-left: 2em;
     }
 
     button {
-        padding: 10px 15px;
+        padding: 10px;
         border-radius: 25px;
         background: #FDE739;
         color: black;
@@ -124,6 +131,7 @@
         border: none;
         text-transform: none;
         cursor: pointer;
+        margin-top: 25px;
        
         
       }
@@ -131,10 +139,90 @@
       button:hover { 
         background: #cab82d;
         color: black;
+        
         }
 
         img {
             float: right;
+            padding: 1em;
+            padding-right: 7em;
           }
 
-          
+          .help h2 {
+            color: #3A3A52;
+            font-size: 45px;
+            font-family: rustica,sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            padding-left: 2em;
+        }
+
+        .help2 {
+            max-width: 1140px;
+            margin: 0 auto;
+            display: flex;
+            padding: 2em 1em;
+            color: black;
+        }
+
+        .help-section {
+            background-color: white;
+    
+        }
+
+          .help {
+            padding: 2em 1em;
+            padding-bottom: 6em;
+            padding-top: 6em;
+            background-color: white;
+            text-align: left; 
+            font-family: bilo,sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            align-content: center;
+            
+        }
+
+        .help h2 {
+            font-size: 45px;
+            font-family: rustica,sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            padding-left: 2.6em;
+            text-align: left;
+            color: #3A3A52;
+        }
+
+        .help img {
+            float: left;
+            padding-left: 7em;
+            padding-bottom: 7em;
+        }
+
+        .campaign {
+            padding: 2em 1em;
+            padding-bottom: 2em;
+            background-color: #5F6C7C;
+            content: left; 
+            font-family: bilo,sans-serif;
+            color: white;
+            font-weight: 500;
+            font-style: normal;
+            text-align: center;
+            
+        }
+
+        .campaign h2 {
+            color: #FDE739;
+            font-size: 45px;
+            font-family: rustica,sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            padding-left: 2.6em;
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+
