@@ -21,7 +21,7 @@ body {
     .title2 h2{
         position: absolute;
         top: 300px;
-        left:750px;
+        left:620px;
         padding: 5em, 5em;
         color: white;
         }
@@ -166,6 +166,7 @@ body {
         text-transform: none;
         cursor: pointer;
         margin-top: 25px;
+        width: 25%;
        
         
       }
@@ -306,7 +307,23 @@ body {
 
         .articles h2 {
             font-size: 30px;
-            color: #7C7C7C;
+            color: #3A3A52;
+            
+            
+        }
+
+        .articles img {
+           padding: 2em;
+            
+        }
+
+        .articles p {
+            font-size: 12px;
+            color: black;
+            text-align: left;
+            font-family: bilo,sans-serif;
+            font-weight: 500;
+            margin-right: 5px;
             
         }
 
